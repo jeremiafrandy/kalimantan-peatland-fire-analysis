@@ -1,0 +1,92 @@
+{
+  "verified_at_utc": "2026-10-05T10:49:24.741133+00:00",
+  "grib_sha256": "403378c2ec1b65a026b662f1fe35f2a77ef479d6b174c37bb5a917735554f9fe",
+  "grib_bytes": 2248400,
+  "grib_variable_attributes": {
+    "GRIB_paramId": 210073,
+    "GRIB_dataType": "an",
+    "GRIB_numberOfPoints": 221,
+    "GRIB_typeOfLevel": "surface",
+    "GRIB_stepUnits": 1,
+    "GRIB_stepType": "instant",
+    "GRIB_gridType": "regular_ll",
+    "GRIB_uvRelativeToGrid": 0,
+    "GRIB_NV": 0,
+    "GRIB_Nx": 17,
+    "GRIB_Ny": 13,
+    "GRIB_cfName": "mass_concentration_of_pm2p5_ambient_aerosol_particles_in_air",
+    "GRIB_cfVarName": "pm2p5",
+    "GRIB_gridDefinitionDescription": "Latitude/Longitude Grid",
+    "GRIB_iDirectionIncrementInDegrees": 0.75,
+    "GRIB_iScansNegatively": 0,
+    "GRIB_jDirectionIncrementInDegrees": 0.75,
+    "GRIB_jPointsAreConsecutive": 0,
+    "GRIB_jScansPositively": 0,
+    "GRIB_latitudeOfFirstGridPointInDegrees": 4.5,
+    "GRIB_latitudeOfLastGridPointInDegrees": -4.5,
+    "GRIB_longitudeOfFirstGridPointInDegrees": 108.0,
+    "GRIB_longitudeOfLastGridPointInDegrees": 120.0,
+    "GRIB_missingValue": 3.4028234663852886e+38,
+    "GRIB_name": "Particulate matter d <= 2.5 um",
+    "GRIB_shortName": "pm2p5",
+    "GRIB_totalNumber": 0,
+    "GRIB_units": "kg m**-3",
+    "long_name": "Particulate matter d <= 2.5 um",
+    "units": "kg m**-3",
+    "standard_name": "mass_concentration_of_pm2p5_ambient_aerosol_particles_in_air"
+  },
+  "grib_global_attributes": {
+    "GRIB_edition": 1,
+    "GRIB_centre": "ecmf",
+    "GRIB_centreDescription": "European Centre for Medium-Range Weather Forecasts",
+    "GRIB_subCentre": 0,
+    "Conventions": "CF-1.7",
+    "institution": "European Centre for Medium-Range Weather Forecasts",
+    "history": "2026-10-05T19:49 GRIB to CDM+CF via cfgrib-0.9.15.1/ecCodes-2.49.0 with {\"source\": \"upload/1c9282e165502e5628784042c4a7068d.grib\", \"filter_by_keys\": {}, \"encode_cf\": [\"parameter\", \"time\", \"geography\", \"vertical\"]}"
+  },
+  "raw_time_count": 2920,
+  "raw_time_first_utc": "2023-01-01 00:00:00+00:00",
+  "raw_time_last_utc": "2023-12-31 21:00:00+00:00",
+  "utc_hours_available": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21
+  ],
+  "unique_sensor_model_cells": 1,
+  "paired_days": 107,
+  "maximum_difference_from_archived_CAMS_daily_mean": 0.00011785156243604433,
+  "daily_observations_complete_utc": true,
+  "daily_observations_complete_wib": true,
+  "summaries": [
+    {
+      "daily_convention": "UTC",
+      "paired_days": 107,
+      "cams_mean_ug_m3": 187.7902069091797,
+      "sensor_mean_ug_m3": 96.86872471880939,
+      "rho_daily_levels": 0.8821097592037462,
+      "rho_first_differences": 0.3830062725142958
+    },
+    {
+      "daily_convention": "WIB",
+      "paired_days": 107,
+      "cams_mean_ug_m3": 187.8684301791573,
+      "sensor_mean_ug_m3": 96.86872471880939,
+      "rho_daily_levels": 0.8811105233253003,
+      "rho_first_differences": 0.20420182885356578
+    }
+  ],
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "xarray": "2026.9.0",
+    "cfgrib": "0.9.15.1",
+    "eccodes": "2.49.0"
+  },
+  "interpretation": "UTC and WIB daily conventions were evaluated against unchanged released sensor date labels. A higher correlation cannot establish the true sensor averaging window. This check does not validate smoke-source attribution or exposure estimates."
+}

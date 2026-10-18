@@ -1,0 +1,36 @@
+{
+  "operation": "Lossless compression repackaging only; no statistical reanalysis",
+  "source_archive": "Supplement.zip",
+  "source_archive_sha256": "568db33a4907a12a1206f588be02569f20538ad327540ee77ae3b535bba4e621",
+  "original_panel": "data/Panel_MODIS_GSMaP_2020_2025_Full_Year.csv.gz",
+  "original_panel_sha256": "538f31f77641c11326cd3a0db14667c4815d3e7734c2ad74dcc13faa70bf6cd8",
+  "compact_panel": "data/Panel_MODIS_GSMaP_2020_2025_Full_Year.csv.xz",
+  "compact_panel_sha256": "6bd764aca06c933b887457f1d8901a5b327d77019305e37069110734b31e8ad4",
+  "decompressed_csv_sha256": "6e9e472ff666370a44895c63bd93d9294bd9268d0a22706546adb62b6975a180",
+  "decompressed_csv_byte_identical": true,
+  "classified_modis_decompressed_csv_byte_identical": true,
+  "classified_modis_decompressed_csv_sha256": "184ebf34786a2c0e72232f9f16d315b40419024f8193270bde46c25170a960cb",
+  "compact_modis": "data/MODIS_Classified_2020_2026.csv.xz",
+  "compact_modis_sha256": "26e00029ba8df84a5c04970ad840602b38f99df697452a9f199a467a8e308cdf",
+  "all_tables_and_retained_figures_byte_identical": true,
+  "omitted_duplicate_png_files": [
+    "figures/Figure_1_Peatland_Map_Coverage.png",
+    "figures/Figure_2_MODIS_ID6_2023_2026.png"
+  ],
+  "original_pdf_versions_of_both_maps_retained": true,
+  "all_other_data_files_byte_identical": true,
+  "panel_rows": 1694416,
+  "panel_cells": 773,
+  "vegetation_fire_detection_days": 3059,
+  "unique_grid_day_keys": true,
+  "python_scripts_compile": true,
+  "files_with_panel_filename_updated": [
+    "Artifact_Index.csv",
+    "code/Analyse_Rainfall_Conditional_Logistic.py",
+    "code/Analyse_Working_Poisson_Sensitivity.py",
+    "code/Build_MODIS_Rainfall_Panel.py",
+    "code/Make_Figures_and_Sensor_Tables.py",
+    "code/Validate_Consistency.py"
+  ],
+  "unchanged_files_count": 69
+}

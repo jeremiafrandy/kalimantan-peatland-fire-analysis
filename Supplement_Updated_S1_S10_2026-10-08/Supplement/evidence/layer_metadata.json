@@ -1,0 +1,800 @@
+{
+ "currentVersion": 10.81,
+ "id": 6,
+ "name": "Peta Lahan Gambut",
+ "type": "Feature Layer",
+ "description": "",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "uniqueValue",
+   "field1": "landform",
+   "field2": null,
+   "field3": null,
+   "defaultSymbol": null,
+   "defaultLabel": null,
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       190,
+       190,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Payau (50 cm - < 100 cm)",
+     "label": "Gambut Topogen Air Payau (50 cm - < 100 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       127,
+       127,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Payau (100 cm - < 200 cm)",
+     "label": "Gambut Topogen Air Payau (100 cm - < 200 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       255,
+       0,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Payau (200 cm - < 300 cm)",
+     "label": "Gambut Topogen Air Payau (200 cm - < 300 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       168,
+       0,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Payau (300 cm - < 500 cm)",
+     "label": "Gambut Topogen Air Payau (300 cm - < 500 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       115,
+       0,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Payau (500 cm - < 700 cm)",
+     "label": "Gambut Topogen Air Payau (500 cm - < 700 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       190,
+       255,
+       232,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Tawar (50 cm - < 100 cm)",
+     "label": "Gambut Topogen Air Tawar (50 cm - < 100 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       115,
+       255,
+       223,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Tawar (100 cm - < 200 cm)",
+     "label": "Gambut Topogen Air Tawar (100 cm - < 200 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       255,
+       197,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Tawar (200 cm - < 300 cm)",
+     "label": "Gambut Topogen Air Tawar (200 cm - < 300 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       230,
+       169,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Tawar (300 cm - < 500 cm)",
+     "label": "Gambut Topogen Air Tawar (300 cm - < 500 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       168,
+       132,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Gambut Topogen Air Tawar (500 cm - < 700 cm)",
+     "label": "Gambut Topogen Air Tawar (500 cm - < 700 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       163,
+       255,
+       115,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Tepi Kubah Gambut (50 cm - < 100 cm)",
+     "label": "Tepi Kubah Gambut (50 cm - < 100 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       76,
+       230,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Tepi Kubah Gambut (100 cm - < 200 cm)",
+     "label": "Tepi Kubah Gambut (100 cm - < 200 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       56,
+       194,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Tepi Kubah Gambut (200 cm - < 300 cm)",
+     "label": "Tepi Kubah Gambut (200 cm - < 300 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       38,
+       174,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Kubah Gambut (300 cm - < 500 cm)",
+     "label": "Kubah Gambut (300 cm - < 500 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       38,
+       130,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Kubah Gambut (500 cm - < 700 cm)",
+     "label": "Kubah Gambut (500 cm - < 700 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       31,
+       77,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Kubah Gambut (> 700 cm)",
+     "label": "Kubah Gambut (> 700 cm)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       252,
+       229,
+       189,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Rawa Belakang Pasang Surut",
+     "label": "Rawa Belakang Pasang Surut",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       247,
+       197,
+       252,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Rawa Belakang Sungai Meander (Backswamp)",
+     "label": "Rawa Belakang Sungai Meander (Backswamp)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       241,
+       252,
+       204,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Rawa Lebak Pematang (Dangkal)",
+     "label": "Rawa Lebak Pematang (Dangkal)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       212,
+       252,
+       222,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Rawa Lebak Tengahan",
+     "label": "Rawa Lebak Tengahan",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       190,
+       210,
+       255,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Bekas Aliran Sungai Lama",
+     "label": "Bekas Aliran Sungai Lama",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       47,
+       79,
+       79,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Dataran Fluvio-Marin",
+     "label": "Dataran Fluvio-Marin",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       245,
+       245,
+       122,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Dataran Pasang Surut (Tidal Flats)",
+     "label": "Dataran Pasang Surut (Tidal Flats)",
+     "description": ""
+    },
+    {
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       115,
+       115,
+       0,
+       255
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "width": 0.4
+      }
+     },
+     "value": "Depresi Aluvial/Rawa Lebak",
+     "label": "Depresi Aluvial/Rawa Lebak",
+     "description": ""
+    }
+   ],
+   "fieldDelimiter": ","
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": false,
+ "extent": {
+  "xmin": 108.860173261,
+  "ymin": -3.4605813200000197,
+  "xmax": 118.57645895300001,
+  "ymax": 4.07009380800002,
+  "spatialReference": {
+   "wkid": 4326,
+   "latestWkid": 4326
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "wadmpu",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "objectid",
+   "type": "esriFieldTypeOID",
+   "alias": "objectid",
+   "domain": null
+  },
+  {
+   "name": "wadmpu",
+   "type": "esriFieldTypeString",
+   "alias": "wadmpu",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "landform",
+   "type": "esriFieldTypeString",
+   "alias": "landform",
+   "length": 254,
+   "domain": null
+  },
+  {
+   "name": "bhnindk",
+   "type": "esriFieldTypeString",
+   "alias": "bhnindk",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "relief",
+   "type": "esriFieldTypeString",
+   "alias": "relief",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "usda1",
+   "type": "esriFieldTypeString",
+   "alias": "usda1",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "usda2",
+   "type": "esriFieldTypeString",
+   "alias": "usda2",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "usda3",
+   "type": "esriFieldTypeString",
+   "alias": "usda3",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "fcode",
+   "type": "esriFieldTypeString",
+   "alias": "fcode",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "metadata",
+   "type": "esriFieldTypeString",
+   "alias": "metadata",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "srs_id",
+   "type": "esriFieldTypeString",
+   "alias": "srs_id",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "namobj",
+   "type": "esriFieldTypeString",
+   "alias": "namobj",
+   "length": 250,
+   "domain": null
+  },
+  {
+   "name": "shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "shape",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "shape"
+ },
+ "indexes": null,
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, geoJSON",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsHavingClause": true,
+  "supportsCountDistinct": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true
+ },
+ "supportsDatumTransformation": true,
+ "supportsCoordinatesQuantization": true,
+ "serviceItemId": "86a1e71887224f45aa041e45f0bea5f0"
+}

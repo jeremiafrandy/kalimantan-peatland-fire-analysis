@@ -1,0 +1,4 @@
+{
+  "exact_subset_enumeration_check": true,
+  "finite_difference_gradient_check": true
+}

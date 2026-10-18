@@ -1,0 +1,24 @@
+{
+  "full_year_panel_unique_keys": true,
+  "matched_descriptive_window_separate": true,
+  "primary_logistic_table_verified": true,
+  "observation_sensitivity_contrasts_above_one": true,
+  "burned_fraction_table_verified": true,
+  "October_sensor_table_verified": true,
+  "code_compilation": true,
+  "image_files_readable": [
+    "Figure_3_Rainfall_Detection_Odds.png",
+    "Figure_4_Burning_and_PM25_2023.png",
+    "Figure_S1_Observational_Analysis_Workflow.png",
+    "Figure_S2_MODIS_Observation_Sensitivity.png",
+    "Figure_S3_Daily_PM25_2023.png",
+    "Graphical_Abstract_Current.png"
+  ],
+  "cloud_mask_based_correction_performed": false,
+  "smoke_source_attribution_performed": false,
+  "forecast_validation_performed": false,
+  "statistical_models_refitted_in_this_check": false,
+  "Table_S10_totals_verified": true,
+  "artifact_index_paths_exist": true,
+  "manuscript_text_checked": false
+}

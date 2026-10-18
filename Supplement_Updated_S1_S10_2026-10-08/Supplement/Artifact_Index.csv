@@ -1,0 +1,23 @@
+artifact,path,generation_script,input
+Figure 1,figures/Figure_1_Peatland_Map_Coverage.pdf,Make_Figure_1_Peatland_Map_Coverage.py,Original province and ID6/37/48 maps; display only
+Figure 2,figures/Figure_2_MODIS_ID6_2023_2026.pdf,Make_Figures_and_Sensor_Tables.py,MODIS_Classified_2020_2026.csv.xz; original maps
+Figure 3,figures/Figure_3_Rainfall_Detection_Odds.png,Make_Figures_and_Sensor_Tables.py,Table_2_Rainfall_Primary.csv
+Figure 4,figures/Figure_4_Burning_and_PM25_2023.png,Make_Figures_and_Sensor_Tables.py,Table_S5_Burned_Area_Monthly.csv; Table_S7_Sensor_CAMS_Monthly.csv
+Figure S1,figures/Figure_S1_Observational_Analysis_Workflow.png,Author-supplied artwork; Make_Supplementary_Additions_S1_S10.py creates PDF,Author-supplied image(20261008-073131).png; preserved without redrawing
+Figure S2,figures/Figure_S2_MODIS_Observation_Sensitivity.png,Make_Figures_and_Sensor_Tables.py,Table_S4_MODIS_Observation_Sensitivity.csv
+Figure S3,figures/Figure_S3_Daily_PM25_2023.png,Make_Figures_and_Sensor_Tables.py,Sensor_CAMS_Burn_Daily_2023.csv
+Graphical abstract,figures/Graphical_Abstract_Current.png,Make_Graphical_Abstract.py,"Tables 2, 3, S7"
+Table 1,tables/Table_1_MODIS_Matched_Annual.csv,Build_MODIS_Rainfall_Panel.py,See script arguments and README for inputs
+Table 2,tables/Table_2_Rainfall_Primary.csv,Analyse_Rainfall_Conditional_Logistic.py,See script arguments and README for inputs
+Table 3,tables/Table_3_Burned_Area_2023.csv,Analyse_Burned_Area_2023.py,See script arguments and README for inputs
+Table S1,tables/Table_S1_MODIS_Province.csv,Build_MODIS_Rainfall_Panel.py,See script arguments and README for inputs
+Table S2,tables/Table_S2_MODIS_Detection_Characteristics.csv,Build_MODIS_Rainfall_Panel.py,See script arguments and README for inputs
+Table S3,tables/Table_S3_Rainfall_All_Sensitivity_Models.csv,Analyse_Rainfall_Conditional_Logistic.py,See script arguments and README for inputs
+Table S4,tables/Table_S4_MODIS_Observation_Sensitivity.csv,Analyse_Rainfall_Conditional_Logistic.py,See script arguments and README for inputs
+Table S5,tables/Table_S5_Burned_Area_Monthly.csv,Analyse_Burned_Area_2023.py,See script arguments and README for inputs
+Table S6,tables/Table_S6_Burned_Area_QA_Sensitivity.csv,Analyse_Burned_Area_2023.py,See script arguments and README for inputs
+Table S7,tables/Table_S7_Sensor_CAMS_Monthly.csv,Make_Figures_and_Sensor_Tables.py,See script arguments and README for inputs
+Table S8,tables/Table_S8_Sensor_CAMS_Burn_Comparisons.csv,Make_Figures_and_Sensor_Tables.py,See script arguments and README for inputs
+Table S9,tables/Table_S9_Working_Poisson_Sensitivity.csv,Analyse_Working_Poisson_Sensitivity.py,See script arguments and README for inputs
+Table S10,tables/Table_S10_Rainfall_Category_Counts.csv,Make_Table_S10_Rainfall_Category_Counts.py,data/Panel_MODIS_GSMaP_2020_2025_Full_Year.csv.xz
+Editable supplementary additions,Supplementary_Additions_S1_S10.docx,Make_Supplementary_Additions_S1_S10.py,Figure S1 supplied artwork; Table S10

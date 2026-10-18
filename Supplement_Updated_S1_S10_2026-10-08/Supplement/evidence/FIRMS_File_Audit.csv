@@ -1,0 +1,4 @@
+file,rows,first_date,last_date,exact_duplicate_rows,type_field_present,clear_sky_or_cloud_mask_present
+fire_archive_M-C61_813388.csv,52801,2020-01-02,2025-12-31,0,True,False
+fire_archive_M-C61_813389.csv,2650,2026-01-03,2026-06-30,0,True,False
+fire_nrt_M-C61_813389.csv,52874,2026-07-01,2026-09-27,0,False,False

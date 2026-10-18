@@ -1,0 +1,3 @@
+scenario,class,valid_pixels,unique_burned_pixels,valid_area_km2,unique_burned_area_km2,burned_fraction_percent,valid_coverage_percent
+Primary centre and QA,Within BIG ID 6,110282,4864,23672.987808184094,1044.0997869009216,4.410511234834334,99.81626465131014
+Primary centre and QA,Outside BIG ID 6,595775,7703,127888.2710815988,1653.515760381949,1.2929377701313416,98.0628563527909

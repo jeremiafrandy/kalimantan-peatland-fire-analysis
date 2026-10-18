@@ -1,0 +1,21 @@
+{
+  "full_year_panel_unique_keys": true,
+  "matched_descriptive_window_separate": true,
+  "primary_logistic_results_reproduced": true,
+  "observation_sensitivity_contrasts_above_one": true,
+  "burned_fractions_reproduced": true,
+  "October_sensor_peak_reproduced": true,
+  "code_compilation": true,
+  "image_files_readable": [
+    "Figure_1_Peatland_Map_Coverage.png",
+    "Figure_2_MODIS_ID6_2023_2026.png",
+    "Figure_3_Rainfall_Detection_Odds.png",
+    "Figure_4_Burning_and_PM25_2023.png",
+    "Figure_S1_MODIS_Observation_Sensitivity.png",
+    "Figure_S2_Daily_PM25_2023.png",
+    "Graphical_Abstract_Current.png"
+  ],
+  "cloud_mask_based_correction_performed": false,
+  "smoke_source_attribution_performed": false,
+  "forecast_validation_performed": false
+}

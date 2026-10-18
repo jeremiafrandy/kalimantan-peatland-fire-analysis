@@ -1,0 +1,13 @@
+{
+  "pixel_area_km2": 0.214658673293775,
+  "seasonal_fraction_ratio": 3.411232417153609,
+  "raster_shape": [
+    1041,
+    1260
+  ],
+  "QA_sensitivity_ratios": {
+    "Primary centre and QA": 3.411232417153609,
+    "Exclude shortened mapping": 3.294194601601362,
+    "Exclude special unburned flags": 3.3928503165662915
+  }
+}

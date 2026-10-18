@@ -1,0 +1,9 @@
+older_artifact,current_artifact,reason_or_status
+"Primary IRR 0.316, matched-window Poisson","Primary conditional logistic OR 10.50, full years",Old IRR retained only in Table S9 sensitivity
+"1,249,168 primary grid-days","1,694,416 full-year grid-days",Matched-window subset remains a sensitivity
+Figure 2: pooled 2020–2025 versus 2026,Figure 2: matched 2023 versus provisional 2026,Same calendar window and display settings
+Figure 3: monthly rainfall/count display,Figure 3: primary fitted categorical odds ratios,Direct connection to Table 2
+Sensor/CAMS checked only from derived tables,Raw sensor/CAMS had already been verified; verified outputs integrated,No new source attribution
+Older graphical abstracts showing IRR 0.316,Graphical_Abstract_Current,Use only current graphic with this manuscript
+Figure S1 MODIS observation sensitivity,Figure S2 MODIS observation sensitivity,Workflow added as Figure S1; original figure bytes unchanged
+Figure S2 daily PM2.5,Figure S3 daily PM2.5,Workflow added as Figure S1; original figure bytes unchanged

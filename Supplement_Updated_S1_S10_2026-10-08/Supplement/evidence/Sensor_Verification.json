@@ -1,0 +1,60 @@
+{
+  "verified_at_utc": "2026-10-05T10:20:00.595560+00:00",
+  "source_doi": "10.5281/zenodo.13767528",
+  "paper_doi": "10.1029/2024GH001125",
+  "source_md5": "e811953a84db4fd14a33f67dd8f483dd",
+  "expected_repository_md5": "e811953a84db4fd14a33f67dd8f483dd",
+  "source_md5_matches_repository": true,
+  "source_sha256": "8e989da0e8cc5509759e8a5d4a21a937dceb0ee7ac18481b3c90db2c6473f5a8",
+  "dimensions": {
+    "sensor_type": 2,
+    "site": 8,
+    "time": 108,
+    "channel": 2
+  },
+  "global_attributes": {},
+  "variable_attributes": {
+    "daily_mean_pm25": {
+      "description": "Purple Air daily mean PM2.5 concentrations ",
+      "units": "ug m-3"
+    },
+    "sensor_type": {},
+    "site": {},
+    "lon": {},
+    "lat": {},
+    "time": {},
+    "channel": {}
+  },
+  "time_encoding": {
+    "dtype": "int64",
+    "units": "days since 2023-08-16 00:00:00",
+    "calendar": "proleptic_gregorian"
+  },
+  "time_zone_explicit_in_metadata": false,
+  "physical_channel_mapping_explicit_in_metadata": false,
+  "nonmissing_channel_B": 0,
+  "study_site_days": 816,
+  "study_days": 107,
+  "reporting_sites_min": 6,
+  "reporting_sites_max": 8,
+  "maximum_difference_from_archived_daily_summary": 4.967974057024094e-06,
+  "KR06_max_after_failure": 453.7195304108311,
+  "complete_sites": [
+    "PLK_01",
+    "SBG_01"
+  ],
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "xarray": "2026.9.0",
+    "h5netcdf": "1.8.1",
+    "h5py": "3.16.0"
+  },
+  "interpretation": [
+    "Published methods specify a mean of both physical channels except PA03/KR06, for which Channel B was used.",
+    "The released file has nonmissing values under field A only. Its field labels do not explicitly describe the composite-to-physical-channel mapping.",
+    "Midnight daily date labels and CF-style reference units do not independently establish the averaging window.",
+    "A date-offset sensitivity check does not reconstruct hourly observations or validate a timezone conversion."
+  ]
+}

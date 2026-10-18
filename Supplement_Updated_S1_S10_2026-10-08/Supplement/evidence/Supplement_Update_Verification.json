@@ -1,0 +1,354 @@
+{
+  "update_date": "2026-10-08",
+  "source_archive": "Supplement_Compact.zip",
+  "source_archive_sha256": "995dd4e6d64f0bdbc8c60fcd613ccdb91a8ab496d282cc127af1e477e7642453",
+  "operation": "Add author-supplied Figure S1 and descriptive Table S10; update numbering and reproduction references",
+  "workflow_original_png_byte_identical": true,
+  "workflow_png_native_dimensions": [
+    1008,
+    584
+  ],
+  "workflow_pdf_embeds_original_raster_on_white": true,
+  "all_existing_data_byte_identical": true,
+  "all_existing_tables_byte_identical": true,
+  "renumbered_figures_byte_identical": true,
+  "no_previous_package_content_removed": true,
+  "numbering_changes": {
+    "figures/Figure_S1_MODIS_Observation_Sensitivity.png": "figures/Figure_S2_MODIS_Observation_Sensitivity.png",
+    "figures/Figure_S1_MODIS_Observation_Sensitivity.pdf": "figures/Figure_S2_MODIS_Observation_Sensitivity.pdf",
+    "figures/Figure_S2_Daily_PM25_2023.png": "figures/Figure_S3_Daily_PM25_2023.png",
+    "figures/Figure_S2_Daily_PM25_2023.pdf": "figures/Figure_S3_Daily_PM25_2023.pdf"
+  },
+  "Table_S10_recomputed_from_existing_panel": true,
+  "Table_S10_totals": [
+    1694416,
+    43283,
+    3059
+  ],
+  "statistical_models_refitted": false,
+  "supplementary_docx_pages_visually_checked": 2,
+  "figure_pdf_visually_checked": true,
+  "all_artifact_index_paths_exist": true,
+  "all_python_scripts_compile": true,
+  "unchanged_previous_files": [
+    {
+      "old": "Laporan_Pemeriksaan_MODIS_dan_Konsistensi.md",
+      "current": "Laporan_Pemeriksaan_MODIS_dan_Konsistensi.md"
+    },
+    {
+      "old": "code/Analyse_Burned_Area_2023.py",
+      "current": "code/Analyse_Burned_Area_2023.py"
+    },
+    {
+      "old": "code/Analyse_Rainfall_Conditional_Logistic.py",
+      "current": "code/Analyse_Rainfall_Conditional_Logistic.py"
+    },
+    {
+      "old": "code/Analyse_Working_Poisson_Sensitivity.py",
+      "current": "code/Analyse_Working_Poisson_Sensitivity.py"
+    },
+    {
+      "old": "code/Build_MODIS_Rainfall_Panel.py",
+      "current": "code/Build_MODIS_Rainfall_Panel.py"
+    },
+    {
+      "old": "code/Data_IO.py",
+      "current": "code/Data_IO.py"
+    },
+    {
+      "old": "code/Download_Verified_Sources.py",
+      "current": "code/Download_Verified_Sources.py"
+    },
+    {
+      "old": "code/Make_Figure_1_Peatland_Map_Coverage.py",
+      "current": "code/Make_Figure_1_Peatland_Map_Coverage.py"
+    },
+    {
+      "old": "code/Make_Graphical_Abstract.py",
+      "current": "code/Make_Graphical_Abstract.py"
+    },
+    {
+      "old": "code/Verify_CAMS_UTC_WIB.py",
+      "current": "code/Verify_CAMS_UTC_WIB.py"
+    },
+    {
+      "old": "code/Verify_Published_Sensor_Data.py",
+      "current": "code/Verify_Published_Sensor_Data.py"
+    },
+    {
+      "old": "data/Archived_Daily_2023_Comparison.csv",
+      "current": "data/Archived_Daily_2023_Comparison.csv"
+    },
+    {
+      "old": "data/Burned_Area_Daily_2023.csv",
+      "current": "data/Burned_Area_Daily_2023.csv"
+    },
+    {
+      "old": "data/CAMS_EAC4_PM25_2023_Kalimantan.grib",
+      "current": "data/CAMS_EAC4_PM25_2023_Kalimantan.grib"
+    },
+    {
+      "old": "data/MODIS_Classified_2020_2026.csv.xz",
+      "current": "data/MODIS_Classified_2020_2026.csv.xz"
+    },
+    {
+      "old": "data/PA_data.nc",
+      "current": "data/PA_data.nc"
+    },
+    {
+      "old": "data/Panel_MODIS_GSMaP_2020_2025_Full_Year.csv.xz",
+      "current": "data/Panel_MODIS_GSMaP_2020_2025_Full_Year.csv.xz"
+    },
+    {
+      "old": "data/Rainfall_Grid_Definition.csv",
+      "current": "data/Rainfall_Grid_Definition.csv"
+    },
+    {
+      "old": "data/Sensor_CAMS_Burn_Daily_2023.csv",
+      "current": "data/Sensor_CAMS_Burn_Daily_2023.csv"
+    },
+    {
+      "old": "evidence/Burned_Area_Input_SHA256.csv",
+      "current": "evidence/Burned_Area_Input_SHA256.csv"
+    },
+    {
+      "old": "evidence/Burned_Area_QA_Audit.csv",
+      "current": "evidence/Burned_Area_QA_Audit.csv"
+    },
+    {
+      "old": "evidence/Burned_Area_Verification.json",
+      "current": "evidence/Burned_Area_Verification.json"
+    },
+    {
+      "old": "evidence/CAMS_Cell_Daily_UTC_WIB.csv",
+      "current": "evidence/CAMS_Cell_Daily_UTC_WIB.csv"
+    },
+    {
+      "old": "evidence/CAMS_Time_Convention_Verification.json",
+      "current": "evidence/CAMS_Time_Convention_Verification.json"
+    },
+    {
+      "old": "evidence/CAMS_UTC_WIB_Comparison.csv",
+      "current": "evidence/CAMS_UTC_WIB_Comparison.csv"
+    },
+    {
+      "old": "evidence/Compact_Distribution_Verification.json",
+      "current": "evidence/Compact_Distribution_Verification.json"
+    },
+    {
+      "old": "evidence/Conditional_Logistic_Verification.json",
+      "current": "evidence/Conditional_Logistic_Verification.json"
+    },
+    {
+      "old": "evidence/Date_Label_Offset_Sensitivity.csv",
+      "current": "evidence/Date_Label_Offset_Sensitivity.csv"
+    },
+    {
+      "old": "evidence/FIRMS_File_Audit.csv",
+      "current": "evidence/FIRMS_File_Audit.csv"
+    },
+    {
+      "old": "evidence/Final_Check_Log.json",
+      "current": "evidence/Final_Check_Log.json"
+    },
+    {
+      "old": "evidence/GSMaP_Raster_Audit.csv",
+      "current": "evidence/GSMaP_Raster_Audit.csv"
+    },
+    {
+      "old": "evidence/Geometry_Comparison.json",
+      "current": "evidence/Geometry_Comparison.json"
+    },
+    {
+      "old": "evidence/ID6_Verification.json",
+      "current": "evidence/ID6_Verification.json"
+    },
+    {
+      "old": "evidence/Input_SHA256.csv",
+      "current": "evidence/Input_SHA256.csv"
+    },
+    {
+      "old": "evidence/Prior_Data_Verification_Report.md",
+      "current": "evidence/Prior_Data_Verification_Report.md"
+    },
+    {
+      "old": "evidence/Rainfall_Panel_Audit.csv",
+      "current": "evidence/Rainfall_Panel_Audit.csv"
+    },
+    {
+      "old": "evidence/Sensor_Daily_Reproduced.csv",
+      "current": "evidence/Sensor_Daily_Reproduced.csv"
+    },
+    {
+      "old": "evidence/Sensor_Monthly_Reproduced.csv",
+      "current": "evidence/Sensor_Monthly_Reproduced.csv"
+    },
+    {
+      "old": "evidence/Sensor_Verification.json",
+      "current": "evidence/Sensor_Verification.json"
+    },
+    {
+      "old": "evidence/layer_metadata.json",
+      "current": "evidence/layer_metadata.json"
+    },
+    {
+      "old": "evidence/query_count.json",
+      "current": "evidence/query_count.json"
+    },
+    {
+      "old": "evidence/query_ids.json",
+      "current": "evidence/query_ids.json"
+    },
+    {
+      "old": "figures/Figure_1_Peatland_Map_Coverage.pdf",
+      "current": "figures/Figure_1_Peatland_Map_Coverage.pdf"
+    },
+    {
+      "old": "figures/Figure_2_MODIS_ID6_2023_2026.pdf",
+      "current": "figures/Figure_2_MODIS_ID6_2023_2026.pdf"
+    },
+    {
+      "old": "figures/Figure_3_Rainfall_Detection_Odds.pdf",
+      "current": "figures/Figure_3_Rainfall_Detection_Odds.pdf"
+    },
+    {
+      "old": "figures/Figure_3_Rainfall_Detection_Odds.png",
+      "current": "figures/Figure_3_Rainfall_Detection_Odds.png"
+    },
+    {
+      "old": "figures/Figure_4_Burning_and_PM25_2023.pdf",
+      "current": "figures/Figure_4_Burning_and_PM25_2023.pdf"
+    },
+    {
+      "old": "figures/Figure_4_Burning_and_PM25_2023.png",
+      "current": "figures/Figure_4_Burning_and_PM25_2023.png"
+    },
+    {
+      "old": "figures/Figure_S1_MODIS_Observation_Sensitivity.pdf",
+      "current": "figures/Figure_S2_MODIS_Observation_Sensitivity.pdf"
+    },
+    {
+      "old": "figures/Figure_S1_MODIS_Observation_Sensitivity.png",
+      "current": "figures/Figure_S2_MODIS_Observation_Sensitivity.png"
+    },
+    {
+      "old": "figures/Figure_S2_Daily_PM25_2023.pdf",
+      "current": "figures/Figure_S3_Daily_PM25_2023.pdf"
+    },
+    {
+      "old": "figures/Figure_S2_Daily_PM25_2023.png",
+      "current": "figures/Figure_S3_Daily_PM25_2023.png"
+    },
+    {
+      "old": "figures/Graphical_Abstract_Current.pdf",
+      "current": "figures/Graphical_Abstract_Current.pdf"
+    },
+    {
+      "old": "figures/Graphical_Abstract_Current.png",
+      "current": "figures/Graphical_Abstract_Current.png"
+    },
+    {
+      "old": "figures/Graphical_Abstract_Current.svg",
+      "current": "figures/Graphical_Abstract_Current.svg"
+    },
+    {
+      "old": "requirements_sensor_cams.txt",
+      "current": "requirements_sensor_cams.txt"
+    },
+    {
+      "old": "tables/Table_1_MODIS_Matched_Annual.csv",
+      "current": "tables/Table_1_MODIS_Matched_Annual.csv"
+    },
+    {
+      "old": "tables/Table_2_Rainfall_Primary.csv",
+      "current": "tables/Table_2_Rainfall_Primary.csv"
+    },
+    {
+      "old": "tables/Table_3_Burned_Area_2023.csv",
+      "current": "tables/Table_3_Burned_Area_2023.csv"
+    },
+    {
+      "old": "tables/Table_S1_MODIS_Province.csv",
+      "current": "tables/Table_S1_MODIS_Province.csv"
+    },
+    {
+      "old": "tables/Table_S2_MODIS_Detection_Characteristics.csv",
+      "current": "tables/Table_S2_MODIS_Detection_Characteristics.csv"
+    },
+    {
+      "old": "tables/Table_S3_Rainfall_All_Sensitivity_Models.csv",
+      "current": "tables/Table_S3_Rainfall_All_Sensitivity_Models.csv"
+    },
+    {
+      "old": "tables/Table_S4_MODIS_Observation_Sensitivity.csv",
+      "current": "tables/Table_S4_MODIS_Observation_Sensitivity.csv"
+    },
+    {
+      "old": "tables/Table_S5_Burned_Area_Monthly.csv",
+      "current": "tables/Table_S5_Burned_Area_Monthly.csv"
+    },
+    {
+      "old": "tables/Table_S6_Burned_Area_QA_Sensitivity.csv",
+      "current": "tables/Table_S6_Burned_Area_QA_Sensitivity.csv"
+    },
+    {
+      "old": "tables/Table_S7_Sensor_CAMS_Monthly.csv",
+      "current": "tables/Table_S7_Sensor_CAMS_Monthly.csv"
+    },
+    {
+      "old": "tables/Table_S8_Sensor_CAMS_Burn_Comparisons.csv",
+      "current": "tables/Table_S8_Sensor_CAMS_Burn_Comparisons.csv"
+    },
+    {
+      "old": "tables/Table_S9_Working_Poisson_Sensitivity.csv",
+      "current": "tables/Table_S9_Working_Poisson_Sensitivity.csv"
+    }
+  ],
+  "previous_files_updated_for_this_release": [
+    {
+      "old": "Artifact_Index.csv",
+      "current": "Artifact_Index.csv"
+    },
+    {
+      "old": "Legacy_to_Current_Version_Map.csv",
+      "current": "Legacy_to_Current_Version_Map.csv"
+    },
+    {
+      "old": "README.md",
+      "current": "README.md"
+    },
+    {
+      "old": "Supplementary_Results.md",
+      "current": "Supplementary_Results.md"
+    },
+    {
+      "old": "code/Make_Figures_and_Sensor_Tables.py",
+      "current": "code/Make_Figures_and_Sensor_Tables.py"
+    },
+    {
+      "old": "code/Run_Analysis.py",
+      "current": "code/Run_Analysis.py"
+    },
+    {
+      "old": "code/Update_Manuscript.py",
+      "current": "code/Update_Manuscript.py"
+    },
+    {
+      "old": "code/Validate_Consistency.py",
+      "current": "code/Validate_Consistency.py"
+    },
+    {
+      "old": "evidence/Release_Consistency_Check.json",
+      "current": "evidence/Release_Consistency_Check.json"
+    },
+    {
+      "old": "evidence/Release_SHA256.csv",
+      "current": "evidence/Release_SHA256.csv"
+    },
+    {
+      "old": "requirements.txt",
+      "current": "requirements.txt"
+    }
+  ],
+  "historical_reports_retained_with_original_dates_and_then_current_filenames": true
+}

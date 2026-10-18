@@ -1,0 +1,16 @@
+{
+  "operation": "Descriptive count verification; no statistical model refit",
+  "panel": "data/Panel_MODIS_GSMaP_2020_2025_Full_Year.csv.xz",
+  "panel_sha256": "6bd764aca06c933b887457f1d8901a5b327d77019305e37069110734b31e8ad4",
+  "stratum": "grid_id x year-month",
+  "outcome": "at least one recorded presumed vegetation-fire detection (type = 0)",
+  "rainfall_window": "D-7 through D-1; no rainfall from day D",
+  "bins": "[0,10], (10,30], (30,60], (60,100], (100,infinity)",
+  "complete_grid_days": 1694416,
+  "informative_grid_days": 43283,
+  "detection_grid_days_in_informative_strata": 3059,
+  "informative_strata": 1420,
+  "counts_match_requested_table": true,
+  "caption": "Table S10. Distribution of analytic grid-days and recorded vegetation-fire detection grid-days across preceding seven-day rainfall categories, 2020–2025.",
+  "note": "Informative strata contained both detection and non-detection grid-days within the same grid cell and year-month. Counts describe the observations available to the analysis and should not be interpreted as population-wide fire probabilities."
+}

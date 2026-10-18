@@ -1,0 +1,7 @@
+preceding_seven_day_rainfall_mm,complete_panel_grid_days,informative_strata_grid_days,recorded_detection_grid_days_informative_strata
+0–10,136716,9974,1498
+>10–30,272585,9244,758
+>30–60,500096,11413,499
+>60–100,460728,8023,214
+>100,324291,4629,90
+Total,1694416,43283,3059
